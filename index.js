@@ -85,7 +85,7 @@ function startfunc(minute, second) {
             }
             startfunc(session ? s_min : b_min, sec);
         }
-    }, 10);
+    }, 100);
 }
 
 start.addEventListener("click", () => {
@@ -129,6 +129,7 @@ function resetfunc() {
     label[2].innerText = b;
     cont.innerText = "Session Time";
     label[0].innerText = "00:00";
+    label[0].style.border='transparent';
 }
 
 reset.addEventListener("click", resetfunc);
