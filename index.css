@@ -7,10 +7,10 @@
 }
 
 body {
-    background-color: #f4f4f4;
-    color: #328d72;
-    /* color: white; */
-    /* background-color: rgb(0, 0, 0);  */
+    /* background-color: #f4f4f4;
+    color: #328d72; */
+    color: white;
+    background-color: rgb(0, 0, 0); 
 }
 
 header {
